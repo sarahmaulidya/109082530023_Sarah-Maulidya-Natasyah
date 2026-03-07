@@ -23,8 +23,9 @@ func main() {
 	}
 	total = ongkir + tambahan
 
+	fmt.Println()
 	fmt.Println("===== Detail Perhitungan =====")
-	fmt.Println("Detail berat: ", kg, "kg + ", sisa, "gr")
+	fmt.Println("Detail berat: ", kg, "kg + ", sisa, "gram")
 	fmt.Println("Detail biaya: Rp", ongkir, "+ Rp", tambahan)
 	fmt.Println("Total biaya: Rp", total)
 }
