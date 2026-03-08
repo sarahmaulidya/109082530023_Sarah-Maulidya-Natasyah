@@ -2,8 +2,9 @@ package main
 import "fmt"
 func main() {
 	var a, b, c, d string
+	var berhasil bool
 
-	berhasil := true
+	berhasil = true
 
 	for i := 1; i <= 5; i++ {
 		fmt.Print("Percobaan ", i, " : ")

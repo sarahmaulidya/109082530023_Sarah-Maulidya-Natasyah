@@ -2,6 +2,7 @@ package main
 import "fmt"
 func main() {
 	var angka, pilihan int
+	
 	fmt.Println("-- MENU --")
 	fmt.Println("1. Cek angka == 10")
 	fmt.Println("2. Cek genap ganjil")
@@ -28,6 +29,6 @@ func main() {
 	}
 
 	default:
-		fmt.Println("Pilihan tidak tersediia")
+		fmt.Println("Pilihan tidak tersedia")
 	}
 }

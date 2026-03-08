@@ -13,12 +13,12 @@ func main() {
 	fmt.Print("Masukkan input: ")
 	fmt.Scanln(&tiga)
 	
-	fmt.Println("Output Awal: " + satu + " " + dua + " " + tiga)
+	fmt.Println("Output Awal = " + satu + " " + dua + " " + tiga)
 
 	temp = satu
 	satu = dua
 	dua = tiga
 	tiga = temp
 
-	fmt.Println("Output Akhir: " + satu + " " + dua + " " + tiga)
+	fmt.Println("Output Akhir = " + satu + " " + dua + " " + tiga)
 }
