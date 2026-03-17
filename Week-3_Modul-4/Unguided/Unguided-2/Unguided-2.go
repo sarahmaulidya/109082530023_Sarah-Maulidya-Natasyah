@@ -1,31 +1,29 @@
 package main 
-import (
-	"fmt"
-	"math"
-)
+import "fmt"
+const Pi = 3.14
 
 func hitungPersegi(sisi int) {
 	var luas, keliling int
 	luas = sisi * sisi
 	keliling = 4 * sisi
-	fmt.Printf("Luas persegi: %d\n", luas)
-	fmt.Printf("Keliling persegi: %d\n", keliling)
+	fmt.Println("Luas persegi: ", luas)
+	fmt.Println("Keliling persegi: ", keliling)
 }
 
 func hitungPersegiPanjang(panjang, lebar int) {
 	var luas, keliling int
 	luas = panjang * lebar
 	keliling = 2 * (panjang + lebar)
-	fmt.Printf("Luas persegi panjang: %d\n", luas)
-	fmt.Printf("Keliling persegi panjang: %d\n", keliling)
+	fmt.Println("Luas persegi panjang: ", luas)
+	fmt.Println("Keliling persegi panjang: ", keliling)
 }
 
 func hitungLingkaran(jarijari float64) {
 	var luas, keliling float64
-	luas = math.Pi * jarijari * jarijari
-	keliling = 2 * math.Pi * jarijari
-	fmt.Printf("Luas lingkaran: %.6f\n", luas)
-	fmt.Printf("Keliling lingkaran: %.4f\n", keliling)
+	luas = Pi * jarijari * jarijari
+	keliling = 2 * Pi * jarijari
+	fmt.Println("Luas lingkaran: ", luas)
+	fmt.Println("Keliling lingkaran: ", keliling)
 }
 
 func main() {

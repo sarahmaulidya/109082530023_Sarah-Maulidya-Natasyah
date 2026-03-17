@@ -10,7 +10,7 @@ func cetakDeret(n int) {
 		} else {
 			n = 3 * n + 1
 		}
-		fmt.Printf(" %d", n)
+		fmt.Print(" ", n)
 	}
 	fmt.Println() 
 }
@@ -20,6 +20,5 @@ func main() {
 	
 	fmt.Print("Masukkan bilangan: ")
 	fmt.Scan(&input)
-
 	cetakDeret(input)
 }

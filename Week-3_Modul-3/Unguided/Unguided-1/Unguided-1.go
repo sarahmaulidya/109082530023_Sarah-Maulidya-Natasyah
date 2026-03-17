@@ -24,14 +24,9 @@ func combination(n, r int) int {
 
 func main() {
 	var a, b, c, d int
-	var p1, p2, c1, c2 int
+	
 	fmt.Scan(&a, &b, &c, &d)
 
-	p1 = permutation(a, c)
-	c1 = combination(a, c)
-	fmt.Printf("%d %d\n", p1, c1)
-
-	p2 = permutation(b, d)
-	c2 = combination(b, d)
-	fmt.Printf("%d %d\n", p2, c2)
+	fmt.Println(permutation(a, c), combination(a, c))
+	fmt.Println(permutation(b, d), combination(b, d))
 }
