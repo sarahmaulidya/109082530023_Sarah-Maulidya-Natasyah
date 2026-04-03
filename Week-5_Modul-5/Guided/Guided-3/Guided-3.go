@@ -16,6 +16,3 @@ func main(){
     fmt.Scan(&n)
     fmt.Println(pangkat(n))
 }
-
-
-

@@ -10,9 +10,9 @@ func pangkat(x int, y int)int {
 }
 
 func main() {
-	var x, y int
+	var x, y, hasil int
 	fmt.Print("Masukkan x dan y: ")
 	fmt.Scan(&x, &y)
-	hasil := pangkat(x, y)
+	hasil = pangkat(x, y)
 	fmt.Println(hasil)
 }
