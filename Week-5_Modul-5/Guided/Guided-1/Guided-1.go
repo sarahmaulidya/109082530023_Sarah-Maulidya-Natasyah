@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func baris(bilangan int){
+func baris(bilangan int) {
 	if bilangan == 1 {
 		fmt.Println(1)
 	} else {
@@ -11,7 +11,7 @@ func baris(bilangan int){
 	}
 }
 
-func main(){
+func main() {
 	var n int
 	fmt.Print("Masukkan input: ")
 	fmt.Scan(&n)
