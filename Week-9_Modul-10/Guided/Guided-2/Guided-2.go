@@ -52,7 +52,7 @@ func main() {
 		fmt.Println("INPUT DATA MAHASISWA INDEX KE-", i)
 		fmt.Print("Masukkan nama : ")
 		fmt.Scan(&arrMhs[i].nama)
-		fmt.Print("Masukkkan nim : ")
+		fmt.Print("Masukkan nim : ")
 		fmt.Scan(&arrMhs[i].nim)
 		fmt.Print("Masukkan IPK : ")
 		fmt.Scan(&arrMhs[i].IPK)
