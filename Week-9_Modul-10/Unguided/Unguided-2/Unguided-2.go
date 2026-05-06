@@ -18,12 +18,10 @@ func main() {
 	i := 0
 	for i < x {
 		total := 0.0
-		count := 0
 
 		for j := 0; j < y && i < x; j++ {
 			total += berat[i]
 			i++
-			count++
 		}
 
 		hasil[jumlahWadah] = total
